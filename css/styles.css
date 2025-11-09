@@ -82,20 +82,19 @@ body {
     box-sizing: border-box;
 }
 
-/* main section */
-main {
-    padding-top: 5rem;
-}
-
 /* Hero section */
+
+.heading {
+    margin: 5rem 0;
+    padding: 1rem 0;
+    max-width: 1100px;
+}
 
 .hero__title {
     font-size: clamp(2.5rem, 5vw, 4.5rem);
     font-weight: 500;
     line-height: 1.25em;
-    margin: 5rem 0;
     letter-spacing: 1px;
-    max-width: 1100px;
 }
 
 /* Contact page */
@@ -206,7 +205,7 @@ em {
 
 /* Two-column layout */
 .two-column {
-   
+   margin-top: 7rem;
     display: grid;
     grid-template-columns: 2fr 1fr;
     gap: 24px;
@@ -252,6 +251,7 @@ em {
 .project-main {
     max-width: 1200px; /* match nav width */
      margin: 0 auto;
+     padding-top: 1rem;
 }
 
 /* Add a bottom border for H1 on project pages */
