@@ -166,6 +166,7 @@ em {
     object-fit: cover;
     transition: filter 200ms ease;
     cursor: pointer;
+    margin-bottom: 1rem;
 }
 
 .grid-item__image-link:hover img,
