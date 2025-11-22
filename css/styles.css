@@ -298,3 +298,132 @@ em {
     display: block;
 }
 
+/* ===================================
+   RESPONSIVE BREAKPOINTS (Desktop-First)
+   =================================== */
+
+/* Tablet and below (max-width: 991px) */
+@media (max-width: 991px) {
+    :root {
+        --container-padding: 2rem;
+    }
+
+    .nav__menu {
+        gap: 2.5rem;
+    }
+
+    .heading {
+        margin: 4rem 0;
+    }
+
+    .two-column {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+
+.project-cover {
+    padding-top: 4rem;
+}
+
+    .project__title {
+        font-size: 3.5rem;
+        margin-top: 1rem;
+    }
+
+    .project-copy {
+        font-size: 1.125rem;
+    }
+
+    .project-gallery {
+ gap: 1rem;
+}
+}
+
+/* Mobile and below (max-width: 767px) */
+@media (max-width: 767px) {
+    :root {
+        --container-padding: 2rem;
+    }
+
+    .nav {
+        padding: 0.75rem 0;
+        min-height: 3.5rem;
+    }
+
+    .nav__menu {
+        gap: 1.5rem;
+    }
+
+    .nav__link {
+        font-size: 1rem;
+    }
+
+    .heading {
+        margin: 4rem 0 0 0;
+        padding: 1rem 0;
+    }
+
+    .hero__title {
+        font-size: clamp(2rem, 4vw, 3.5rem);
+    }
+
+    .hero__contact {
+        font-size: clamp(1.5rem, 3vw, 2.5rem);
+    }
+
+    .contact__body {
+        font-size: clamp(1.125rem, 2.5vw, 1.5rem);
+    }
+
+    .grid-container {
+        grid-template-columns: 1fr;
+        gap: clamp(1.5rem, 4vw, 3rem);
+    margin-top: 0;
+    }
+
+    .grid-item {
+        min-height: 200px;
+    }
+
+    .two-column__content {
+        font-size: 1.125rem;
+    }
+
+    .button {
+        padding: 0.875rem 1.75rem;
+        font-size: 1rem;
+    }
+
+.project-gallery {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+
+.project-cover {
+    padding-top: 4rem;
+}
+
+    .project__title {
+        font-size: 2.5rem;
+        margin-bottom: 1.5rem;
+        padding-bottom: 0.5rem;
+    }
+
+    .project-copy {
+        margin: 1rem 0 2rem 0;
+        font-size: 1rem;
+    }
+
+    .image-container-2col {
+        grid-template-columns: 1fr;
+        gap: 0.75rem;
+    }
+
+    .footer {
+    background-color: #ffffff;
+    min-height: 3rem;
+    margin-top: 0;
+} 
+}
+
